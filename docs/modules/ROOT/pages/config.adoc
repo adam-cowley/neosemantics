@@ -1,7 +1,6 @@
 = Configuring Neo4j to use RDF data
 :page-pagination:
 
-
 Before you import and work with RDF data in Neo4j you need to define how you want this data to be handled in the graph. Do you want to preserve the full names (URIs) of schema elements? Do you want multivalued properties discarded or stored as arrays in Neo4j? All these things  are  stored in a Graph Config.
 
 All settings defined in a Graph Config are global and remain valid for the whole lifetime of the graph and will drive the behaviour of functions and  procedures in n10s.
